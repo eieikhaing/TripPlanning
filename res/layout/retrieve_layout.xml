@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+<RadioGroup 
+    android:id="@+id/ragGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radChooseTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Type" />
+</RadioGroup>
+        <Spinner
+            android:layout_marginTop="25dp"
+            android:id="@+id/spnFilterAttraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtSearchPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/searchbtn"
+        android:ems="10"
+        android:hint="Search By Name"
+        android:textSize="15sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:id="@+id/listPlaces"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+</LinearLayout>

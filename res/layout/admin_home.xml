@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/b2">
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/h1" />
+     
+ 
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnCreateAttraction"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create Attraction Type" 
+        android:textColor="#8B4513"/>
+ <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    
+     <Button
+        android:id="@+id/btnCreateTouristAttraction"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create Tourist Attraction Table" 
+        android:textColor="#8B4513"/>
+     <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnCreateDistance"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Manage Distance Table" 
+        android:textColor="#8B4513"/>
+
+</LinearLayout>
